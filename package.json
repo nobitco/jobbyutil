@@ -1,0 +1,17 @@
+{
+  "name": "jobbyutil",
+  "version": "0.1.0",
+  "description": "jobby util",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "db"
+  ],
+  "author": "Jesus Marquez",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.4"
+  }
+}
