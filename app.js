@@ -18,7 +18,7 @@ const insertUser = function(db, callback) {
 
   const usersCollection = db.collection('users')
 
-  usersCollection.insert(user, function(err, result) {
+  usersCollection.insertOne(user, function(err, result) {
     assert.equal(err, null);
     console.log("Inserted 1 documents user into the users collection");
     callback(result)
